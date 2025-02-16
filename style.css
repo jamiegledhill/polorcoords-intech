@@ -1,0 +1,22 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+#panel{
+  z-index: 1;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .7);
+  width: 100%;
+  padding: 5px;
+}
+h2, p{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
